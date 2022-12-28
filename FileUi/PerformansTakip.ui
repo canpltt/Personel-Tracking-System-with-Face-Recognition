@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1201</width>
+    <height>731</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1201</width>
+     <height>731</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #bbbbbb;</string>
+   </property>
+   <widget class="QLabel" name="logo">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>321</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/newPrefix/Akın Teknoloji /App-Hazirlik /logo-akin.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>40</y>
+      <width>531</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka Heading</family>
+      <pointsize>35</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 35pt;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Kulanıcı Performansı Takip</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>250</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Ubuntu&quot;;
+
+background-color: #fdbb2d;
+
+border-radius:20px ;
+</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>emre yıldırım</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Erol Kocpınar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sinan Özer </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mehmet Ak </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ubedullah Kok </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nalan Hanım </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yavuz Akın</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="back">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>680</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px ;
+
+color: black;
+font: 14pt &quot;Ubuntu&quot;;
+
+background-color: #fdbb2d;
+</string>
+    </property>
+    <property name="text">
+     <string>Geri </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ExtractBtn">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>310</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px ;
+
+color: black;
+font: 14pt &quot;Ubuntu&quot;;
+
+background-color: #fdbb2d;
+</string>
+    </property>
+    <property name="text">
+     <string>Detay Getir</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
